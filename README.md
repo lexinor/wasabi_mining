@@ -19,8 +19,7 @@ This resource was created as a free interactive mining script for ESX servers.
 - Put script in your `resources` directory
 
 
-- Import `wasabi_mining_weight.sql` to your database if using weight based inventory.
-- Import `wasabi_mining_limit.sql` to your database if using limit based inventory.
+- Put true to old ESX if using limit system, otherwise false
 
 
 - Add `ensure wasabi_mining` in your `server.cfg`
@@ -33,4 +32,4 @@ This resource was created as a free interactive mining script for ESX servers.
 - Mining Preview: https://streamable.com/vuxm3f
 - Sell Shop Preview: https://streamable.com/ra63jz
 # Support
-Join our discord <a href='https://discord.gg/XJFNyMy3Bv'>HERE</a> for additional scripts and support!
+<a href='https://discord.gg/79zjvy4JMs'>![Discord Banner 2](https://discordapp.com/api/guilds/1025493337031049358/widget.png?style=banner2)</a>
