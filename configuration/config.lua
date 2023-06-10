@@ -9,15 +9,15 @@ Config.oldESX = false -- Does not apply to qb users (If set to true, won't check
 
 Config.axe = {
     prop = `prop_tool_pickaxe`, --Default: `prop_tool_pickaxe`
-    breakChance = 20 -- When failing to mine rock, this is the percentage of a chance that your pickaxe will 'break'
+    breakChance = 5 -- When failing to mine rock, this is the percentage of a chance that your pickaxe will 'break'
 }
 
 Config.rocks = { -- Items obtained from mining
     { item = 'emerald', label = 'Emerald', price = {190, 220}, difficulty = {'medium', 'medium', 'easy'} },
     { item = 'diamond', label = 'Diamond', price = {150, 180}, difficulty = {'medium', 'easy', 'easy'} },
-    { item = 'copper', label = 'Copper', price = {110, 140}, difficulty = {'medium', 'easy'} },
-    { item = 'iron', label = 'Iron', price = {70, 100}, difficulty = {'easy', 'easy'} },
-    { item = 'steel', label = 'Steel', price = {40, 60}, difficulty = {'easy', 'easy'} },
+    { item = 'copper', label = 'Copper', price = {40, 70}, difficulty = {'medium', 'easy', 'easy'} },
+    { item = 'iron', label = 'Iron', price = {20, 40}, difficulty = {'easy', 'easy'} },
+    { item = 'steel', label = 'Steel', price = {35, 50}, difficulty = {'easy', 'easy', 'easy'} },
 }
 
 
