@@ -5,33 +5,33 @@
 Strings = {
     --Blips
     mining_blips = 'Mine',
-    sell_shop_blip = 'Mining Sales',
+    sell_shop_blip = 'Vente Mine',
 
     --Help Text
-    intro_instruction = 'Press ~INPUT_ATTACK~ to mine rocks, ~INPUT_FRONTEND_RRIGHT~ to cancel.',
+    intro_instruction = 'Appuyez sur ~INPUT_ATTACK~ pour miner des roches, ~INPUT_FRONTEND_RRIGHT~ pour annuler.',
 
     --Text UI
-    mine_rock = '[E] - Mine Rock',
-    sell_material = '[E] - Sell Material',
+    mine_rock = '[E] - Miner roche',
+    sell_material = '[E] - Vendre Material',
 
     --Notifications(Success)
-    rewarded = 'Mined Rock',
-    rewarded_desc = 'You have successfully mined 1x',
-    sold_for = 'Items Sold',
-    sold_for_desc = 'You have sold %sx %s for $%s',
+    rewarded = 'Roche miné',
+    rewarded_desc = 'Vous avez miné 1x avec succès',
+    sold_for = 'Items Vendus',
+    sold_for_desc = 'Vous avez vendu %sx %s pour $%s',
 
     --Notifications(Failed)
-    failed_mine = 'Failed',
-    failed_mine_desc = 'You failed to mine rock!',
-    no_pickaxe = 'No Pickaxe',
-    no_pickaxe_desc = 'You do not have a pickaxe!',
-    axe_broke = 'Axe Broke',
-    axe_broke_desc = 'You hit the rock wrong and your axe snapped!',
-    cantcarry = 'Can\'t Carry',
-    cantcarry_desc = 'No more room to carry 1x',
-    possible_cheater = 'Exploit Detected',
-    possible_cheater_desc = 'You have been reported to staff.',
+    failed_mine = 'Raté',
+    failed_mine_desc = 'Vous avez raté votre coup!',
+    no_pickaxe = 'Aucune Pioche',
+    no_pickaxe_desc = "Vous n'avez pas de pioche!",
+    axe_broke = 'Pioche cassée',
+    axe_broke_desc = "Vous avez mal frappé une roche, votre pioche s'est cassée !",
+    cantcarry = "Vous ne pouvez pas porter",
+    cantcarry_desc = "Vous n'avez plus de place pour porter 1x",
+    possible_cheater = 'Exploit detecté',
+    possible_cheater_desc = 'Vous avez été reproté au staff.',
 
     --Kicked Message
-    kicked = 'You have been kicked and reported to staff for possible cheating.'
+    kicked = 'Vous avez été exclu et reporté au staff pour avoir possiblement triché.'
 }
